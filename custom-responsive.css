@@ -1,0 +1,108 @@
+@media screen and (max-width: 768px){
+	.header{
+		height: 50px;
+		background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.7));
+	}
+	.header-images{
+		height: 50px;
+		float: none;
+	}
+	.header-images .brand-image{
+		height: 40px;
+		width: 140px;
+		padding:5px 20px;
+	}
+	.menu{
+		float: none;
+	}
+	.menu ul li{
+		display: block;
+		background: rgba(28,28,28,0.6);
+		padding: 2px;
+		text-align: center;
+		font-size: 17px;
+
+	}
+	.menu ul li:hover{
+          background: #2a2a2a;
+	}
+	.menu ul{
+		margin: 0px;
+	}
+	.wrap-content{
+		width: 90%;  
+	}
+	.menu{
+		display: none;
+	}
+	.menu-button{
+	    display: block;
+	}
+	.wrapper-content h1{
+		font-size: 30px;
+	}
+	.learn-btn{
+		padding:2px 25px;
+	}
+	.div-box{
+		width:100%;
+		float:none;
+		text-align: center;
+	}
+	.service-container{
+		position: static;
+		box-shadow: none;
+		width: 100%;
+	}
+	.contact-us{
+		
+	}
+	.contact-us .con{
+		margin-bottom: 20px;
+		height: 50px;
+		width:120px;
+	}
+	.contact-us .con1{
+		background-position: center;
+		float:none;
+		text-align: center;
+	
+	}
+	.contact-us .contact-form{
+		float:none;
+		width:100%;
+		text-align: center;
+	}
+	.contact-form input{
+		width: 50%;
+		
+	}
+	.contact-form textarea{
+		width: 80%;
+	}
+	.contact-form .submit{
+		width:30%;
+	}
+	.footer .widgets{
+		width:100%;
+		min-height: auto;
+		padding: 2.5% 0px;
+		float:none;
+	}
+	.main-footer p{
+		font-size: 15px;
+	}
+}
+@media screen and(max-width: 320px){
+	.wrapper-content h1{
+	    font-size:26px; 
+    }
+    .wrapper-content{
+       padding-top: 15%;
+       padding-bottom: 15%;
+    }
+	.about-us p{
+		font-size: 10px;
+	}
+	
+}
